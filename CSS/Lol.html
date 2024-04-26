@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gibt mir eure Daten!</title>
+  <link rel="stylesheet" href="/CSS/Jetztmitoptik.css">
+
+</head>
+<body>
+  <h1>Persönliche Info. Sicherheit Garantiert! :D</h1>
+
+  <form>
+    <fieldset>
+      <legend>Datengebrauch:</legend>
+      <label for="firstname">Vorname:</label>
+      <input id="firstname" type="text" placeholder="Vorname" />
+      <br /><br />
+      <label for="lastname">Nachname:</label>
+      <input id="lastname" type="text" placeholder="Nachname" />
+      <br /><br />
+      <label for="music-genre">Lieblingsmusikgenre:</label>
+      <select id="music-genre">
+        <option value="pop">Pop</option>
+        <option value="rock">Rock</option>
+        <option value="hip-hop">Hip-Hop</option>
+        <option value="jazz">Jazz</option>
+      </select>
+      <br /><br />
+      <label for="Nummer">Telefonnummer:</label>
+      <input id="Nummer" type="tel" placeholder="0123456789" />
+      <br /><br />
+      <label for="adresse">Adresse:</label>
+      <input id="adresse" type="text" placeholder="Straße und Hausnummer" />
+      <br /><br />
+      <label for="date">Datum:</label>
+      <input type="date" id="date" />
+      <br /><br />
+      <label>Magst du Pizza?</label><br />
+      <input name="pizza" type="radio" value="ja" id="pizza-ja" />
+      <label for="pizza-ja">Ja</label>
+      <input name="pizza" type="radio" value="nein" id="pizza-nein" />
+      <label for="pizza-nein">Nein</label>
+      <br /><br />
+      <label>Hobbies:</label><br />
+      <input id="basketball" type="checkbox" value="Basketball spielen" />
+      <label for="basketball">Basketball spielen</label>
+      <input id="fahrrad" type="checkbox" value="Fahrrad fahren" />
+      <label for="fahrrad">Fahrrad fahren</label>
+      <br /><br />
+      <label for="pet">Haustier:</label>
+      <select id="pet">
+        <option value="Hund">Hund</option>
+        <option value="Katze">Katze</option>
+        <option value="Schlange">Schlange</option>
+      </select>
+      <br /><br />
+      <textarea cols="30" rows="10" maxlength="50" minlength="10" placeholder="50 Zeichen"></textarea>
+      <br /><br />
+      <input type="submit" />
+    </fieldset>
+  </form>
+</body>
+</html>
